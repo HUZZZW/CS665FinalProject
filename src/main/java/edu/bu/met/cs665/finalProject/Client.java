@@ -1,5 +1,10 @@
 package edu.bu.met.cs665.finalProject;
-
+/**
+ * @Name: Yiming Hu
+ * @Date: Apr 27 2023
+ * @Assaginment: Final project
+ * @Description: The Client class is a class used to control the operation of the entire project, and we instantiate the objects we need in this class.
+ * */
 public class Client {
     public static void main(String[] args) {
         // Create an observer object

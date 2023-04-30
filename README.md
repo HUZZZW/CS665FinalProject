@@ -8,12 +8,16 @@
 
 # Assignment Overview
 Please add a paragraph or two overviewing the objectives of the assignment.
+This is my final Project, In this project I Set a Scenario "If we are pattern designer in a team, and manager ask us to create Order Information management System in an e-platform what should we do? Which pattern should we used?
+" so My choice is Observer + Builder pattern. 
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/HUZZZW/CS665FinalProject.git
 
 # Implementation Description 
-
+![img.png](img.png)
+My project uses two design patterns, Observer pattern and Builder pattern. With regards to flexibility, I think it's done pretty well in my projects. If we need to add a new observer in this project, we only need to add new observer in Clint. Of course, if we want this system or this person to be unable to receive this information. We just need to remove this person from observerList. In my project, I didn't introduce a database, so I simply commented out the line that adds this person. The remove() function is not implemented. Secondly we only need to use the OrderBuilder class and we can use the builder pattern to add our new order to the orderlist. Observers will also receive messages at the same time.
+In terms of avoiding code duplication, as I said, I use three different interfaces to maximize the avoidance of duplication. In my project I think I have made the project the minimum redundancy.
 
 For each assignment, please answer the following:
 

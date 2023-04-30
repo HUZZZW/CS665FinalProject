@@ -1,5 +1,10 @@
 package edu.bu.met.cs665.finalProject;
-
+/**
+ * @Name: Yiming Hu
+ * @Date: Apr 27 2023
+ * @Assaginment: Final project
+ * @Description: This class is to use implement OrderBuilder interface
+ * */
 public class ConcreteOrderBuilder implements OrderBuilder{
     private String product;
     private double discount;

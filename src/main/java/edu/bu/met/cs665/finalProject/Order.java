@@ -1,5 +1,10 @@
 package edu.bu.met.cs665.finalProject;
-
+/**
+ * @Name: Yiming Hu
+ * @Date: Apr 27 2023
+ * @Assaginment: Final project
+ * @Description: This class is the place we are define the parameter for the order such as prodectName, Phone Number and so on
+ * */
 //import com.sun.org.apache.xpath.internal.operations.Or;
 
 import javax.print.attribute.standard.DateTimeAtCompleted;

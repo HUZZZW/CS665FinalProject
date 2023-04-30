@@ -1,5 +1,10 @@
 package edu.bu.met.cs665.finalProject;
-
+/**
+ * @Name: Yiming Hu
+ * @Date: Apr 27 2023
+ * @Assaginment: Final project
+ * @Description: This class is to implement the orderSubject interface
+ * */
 import java.util.List;
 import java.util.ArrayList;
 public class ConcreteOrderSubject implements OrderSubject {
